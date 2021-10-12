@@ -49,6 +49,7 @@ header div img {
 
 .hero {
   display: flex;
+  flex-flow: row nowrap;
   justify-content: space-evenly;
   background-color: #1f2937;
   padding-bottom: 90px;
@@ -74,14 +75,15 @@ header div img {
   margin-bottom: 10px;
 }
 
-.heroright {
-  margin-right: 50px;
-  margin-top: 60px;
+.heroright{ 
+margin-top: 15px;;
+  margin-right: 100px;
+  margin-bottom: 100px;;
 }
 
 .heroright img {
-  width: 350px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
 }
 
 button {
